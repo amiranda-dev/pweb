@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <h2>Cadastro</h2>
+    <form action="./adicionar.html" method="get">
+        Login:<br>
+        <input type="text" name="login"><br>
+
+        Senha:<br>
+        <input type="password" name="senha"><br>
+
+        Confirme a Senha: <br>
+        <input type="password" name="confirmar_senha"><br><br>
+        
+        Nome: <br>
+        <input type="text" name="nome"><br><br>
+
+        Sexo: <br>
+        <input type="radio" name="sexo" value="m" >Masculino <br>
+        <input type="radio" name="sexo" value="f" >Feminino <br><br>
+
+        E-mail: <br>
+        <input type="email" name="email"><br><br>
+
+        Interesses: <br>
+        <input type="checkbox" name="interesses" value="ft" >Futebol <br>
+        <input type="checkbox" name="interesses" value="pl">Política <br>
+        <input type="checkbox" name="interesses" value="eco">Economia <br>
+        <input type="checkbox" name="interesses" value="ca">Carros <br>
+        <input type="checkbox" name="interesses" value="ce">Celebridades <br><br>
+
+        Estado: <br>
+        <select name="estados">
+            <option value="pi">Piaui</option>
+            <option value="ma">Maranhão</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="rs">Rio Grande do Sul</option>
+        </select><br><br>
+        
+        Observaçẽos: <br>
+        <textarea name="obs"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
