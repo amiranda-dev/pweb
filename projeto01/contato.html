@@ -6,7 +6,7 @@
     <title>JM Viagens - Página principal</title>
 </head>
 <body>
-    <table width="900", align="center">
+    <table width="900", align="center" border="1">
         
         <tr>
             <td><img src="./assets/images/logo.png" alt=""></td>
@@ -26,11 +26,41 @@
             <td colspan="2">
                 <h1>E-mail: jmviagens@jmviagens.com.br</h1>
 
-                <p>
+                <p align="justify">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quam ea praesentium soluta autem obcaecati facere id nisi fuga maiores fugiat vero, qui quidem exercitationem eveniet, atque dolore? Illum, fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam at voluptates deleniti esse laudantium eligendi, ab recusandae officiis. Doloremque ipsum iste cumque ipsa corporis, aut qui consequatur adipisci laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ea! Laboriosam, dignissimos libero qui ex quaerat repellat dolor omnis alias, suscipit aliquid natus culpa rerum, earum expedita consectetur? Totam, similique.
                 </p>
             </td>
             
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>Formulário para Contato</h2>
+                <form>
+                    Nome: <br>
+                    <input type="text" name="nome" ><br><br>
+                    Sobrenome: <br>
+                    <input type="text" name="sobrenome"><br><br>
+                    Data de Nascimento: <br>
+                    <input type="date" name="dta-nascimento"><br><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" placeholder="exemplo@exemplo.com"><br><br>
+
+                    <label for="tel">Número de Contato</label><br>
+                    <input type="tel" name="tel" id="tel" placeholder="(0xx) xxxx-xxxx" required><br><br>
+
+                    Assunto da mensagem: <br>
+                    <input type="checkbox" name="op-assunto">Consulta de pacotes <br>
+                    <input type="checkbox" name="op-assunto">Dúvidas sobre reservas <br>
+                    <input type="checkbox" name="op-assunto">Sua contribuição - Feedback <br><br>
+
+                    Mensagem: <br>
+                    <textarea name="mensagem" cols="50" rows="10" style="resize: none; outline: none;"></textarea> <br><br>
+
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <h2>Detalhes da viagem</h2>
+                </form>
+            </td>
         </tr>
 
         <tr>
