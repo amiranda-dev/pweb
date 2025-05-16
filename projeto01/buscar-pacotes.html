@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM Viagens - Página principal</title>
+</head>
+
+<body>
+    <table width="900" align="center" border="0">
+        <tr>
+            <td><img src="./assets/images/logo.png" alt=""></td>
+            <td align="right">
+                <a href="./index.html">Home</a> |
+                <a href="./quem-somos.html">Quem somos</a> |
+                <a href="./contato.html">Contato</a> |
+                <a href="./destinos.html">Destinos</a> |
+                <a href="./buscar-pacotes.html">Buscar Pacotes</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <img src="./assets/images/linha.png" alt="">
+            </td>
+        </tr>
+
+        <tr>
+            <td width="450">
+                <h1>Buscar pacotes de Viagem</h1>
+                <form>
+                    <label for="origem">Origem</label><br>
+                    <input type="text" name="origem" id="origem" placeholder="Seu local de partida" required><br><br>
+
+                    <label for="destino">Destino</label><br>
+                    <input type="text" name="destino" id="destino" placeholder="Seu local de chegada" required><br><br>
+
+                    <label for="data-partida">Data de Partida</label><br>
+                    <input type="date" name="data-partida" id="data-partida"><br><br>
+
+                    <label for="data-retorno">Data de Retorno</label><br>
+                    <input type="date" name="data-retorno" id="data-retorno"><br><br>
+
+                    <label for="qtd-adultos">Quantidade de adultos:</label>
+                    <input type="number" name="qtd-adultos" id="qtd-adultos" min="1" max="10"><br><br>
+
+                    <label for="qtd-criancas">Quantidade de crianças:</label>
+                    <input type="number" name="qtd-criancas" id="qtd-criancas" min="0" max="10"><br><br>
+
+                    <label for="qtd-quartos">Quantidade de quartos:</label>
+                    <input type="number" name="qtd-quartos" id="qtd-quartos" min="1" max="10"><br><br>
+
+                    <label>Carro:</label>
+                    <input type="radio" name="carro" id="carro-sim" value="sim">
+                    <label for="carro-sim">Sim</label>
+                    <input type="radio" name="carro" id="carro-nao" value="não">
+                    <label for="carro-nao">Não</label><br><br>
+
+                    <input type="submit" value="Buscar">
+                </form>
+            </td>
+            <td align="center">
+                <img src="https://fastcompanybrasil.com/wp-content/webp-express/webp-images/uploads/2024/01/aviao-eletrico-768x432.jpg.webp" width="500px">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <h4 align="center">Todos os direitos reservados</h4>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
