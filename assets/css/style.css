@@ -18,6 +18,7 @@ p a {
 p a:hover{
     border: 1px solid rgb(185, 148, 148);
     padding: 4px;
+    background-color: #f1e9e9;
 }
 /**** links **************/
 

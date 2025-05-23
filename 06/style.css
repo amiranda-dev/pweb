@@ -1,18 +1,19 @@
 div {
-    border-style: solid;
+    /*border-style: solid;
     border-width: 5px 10px 5px 5px;
     border-color: red green gray blue;
+    */
+
+    /*border: 1px solid #ff0000;*/
 }
 
 #menu {
     background-color: gray;
     color: white;
-    padding: 10px;
 }
 
 #conteudo {
-    margin-top: 3px;
-    background-color: #cece7b;
+    background-color: #CECE7B;
 }
 
 #rodape {
@@ -20,15 +21,13 @@ div {
     width: 100%;
     height: 30px;
     text-align: center;
-    margin-top: 3px;
 }
 
 .copy {
     font-style: italic;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .title {
     text-align: center;
-    
 }
