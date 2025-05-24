@@ -11,13 +11,17 @@ a:visited {
     color: #551A8B;
 }
 
+p {
+    margin-left: 10px;
+}
+
 p a {
     text-decoration: none;
 }
 
 p a:hover{
     border: 1px solid rgb(185, 148, 148);
-    padding: 4px;
+    padding: 8px;
     background-color: #f1e9e9;
     border-radius: 5px;
 }
