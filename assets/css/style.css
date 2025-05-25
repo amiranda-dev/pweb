@@ -12,9 +12,8 @@ a {
     text-decoration: none;
 }
 
-/* Cabeçalho */
 .header {
-    background-color: #f7cf97;
+    background-color: #c8a97e;
     text-align: center;
     font-size: 1.2em;
     color: #3b2200;
@@ -33,14 +32,13 @@ a {
     background-color: #441d0f;
     color: #f6fcf7;
     font-size: 1.2em;
+    text-align: center;
     width: 200px;
     height: 70px;
     border-radius: 10px;
     padding: 6px;
     margin: 25px;
-    text-align: justify;
     float: left;
-    /*transition: background-color 0.3s ease;*/
 }
 
 a .atividade{
@@ -48,8 +46,16 @@ a .atividade{
     padding: 10px;
     color: #f6fcf7;
 }
-
 .atividade:hover {
     background-color: #5a2f1e;
     cursor: pointer;
+}
+.atividade strong {
+    margin-top: 10px;
+    display: block;
+}
+
+.projeto {
+    outline: 5px solid #c8a97e; 
+    outline-offset: 5px;
 }
