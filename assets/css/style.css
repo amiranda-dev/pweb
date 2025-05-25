@@ -14,10 +14,10 @@ a {
 
 /* Cabeçalho */
 .header {
-    background-color: #27548A;
+    background-color: #f7cf97;
     text-align: center;
     font-size: 1.2em;
-    color: #f6fcf7;
+    color: #3b2200;
     padding: 10px 0;
     margin-bottom: 20px;
 }
@@ -30,14 +30,14 @@ a {
 }
 
 .atividade {
-    background-color: #183B4E;
+    background-color: #441d0f;
     color: #f6fcf7;
     font-size: 1.2em;
     width: 200px;
     height: 70px;
     border-radius: 10px;
     padding: 6px;
-    margin: 20px;
+    margin: 25px;
     text-align: justify;
     float: left;
     /*transition: background-color 0.3s ease;*/
@@ -50,6 +50,6 @@ a .atividade{
 }
 
 .atividade:hover {
-    background-color: #477dac;
+    background-color: #5a2f1e;
     cursor: pointer;
 }
