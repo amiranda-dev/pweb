@@ -30,6 +30,8 @@ body {
 
 #left, #center, #right {
     float: left;
+    padding-left: 20px;
+    padding-top: 50px;
 }
 
 #left {
