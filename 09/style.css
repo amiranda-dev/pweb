@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: auto;
+    height: 100px;
 }
 
 #header {
@@ -44,7 +45,7 @@ body {
 #center {
     background-color: #80e683;
     width: 50%;
-    height: 500px
+    height: 500px;
 }
 
 #right {
