@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamentos</title>
+
+    <style>
+
+        body {
+            background-color: #b47042;
+        }
+        #main {
+            background-color: #7B4019;
+            height: 300px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 10px 14px 14px -14px rgba(0,0,0,1);
+        }
+
+        #main h1 {
+            font-size: 1.5em;
+            text-align: center;
+            color: #fff;
+            padding-top: 20px;
+            text-transform: uppercase;
+            
+        
+        }
+
+        #atividades a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: white;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a {
+            display: block;
+            background-color: #975528;
+            width: 150px;
+            margin: 20px auto;
+            padding: 40px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+    </style>
 </head>
-
 <body>
-    <div id="header">
-        Header
-    </div>
-
-    <div id="menu">
-        Menu
-    </div>
-
-    <div id="principal"> 
-        <div id="left">
-            Left
+    <div id="main">
+        <h1>Exercícios de Posicionamentos</h1>
+        <div id="atividades">
+            <a href="./layout-1.html" target="_blank">Fixar Header</a>
+            <a href="./layout-2.html" target="_blank">Fixar Side Bar</a>
         </div>
-
-        <div id="center">
-            Center
-        </div>
-
-        <div id="right">
-            Right
-        </div>
-    </div>
-
-    <div id="footer" >
-        Footer
     </div>
 </body>
 </html>
