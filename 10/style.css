@@ -10,14 +10,13 @@ body {
 #postagens {
     width: 350px;
     height: auto;
-    border-top: 1px solid #ccc;
     background-color: #fff;
     padding: 10px;
     float: left;
 }
 
+
 .postagem {
-    border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
 }
 
@@ -68,7 +67,6 @@ body {
 #direita {
     float: left;
     width: 350px;
-    border-top: 1px solid #ccc;
     background-color: #fff;
     padding: 10px;
     margin-left: 10px;
