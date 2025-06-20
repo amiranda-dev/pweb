@@ -83,3 +83,19 @@ footer {
 .clear {
     clear: both;
 }
+
+
+a:link {
+    color: #0000EE;
+}
+
+a:visited {
+    color: #0000EE;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
