@@ -113,6 +113,7 @@ h2 {
     color: #F69000;
 }
 #area-lateral-direita {
+    float: right;
     position: fixed;
     top: 60px;
     right: 0;
@@ -120,8 +121,6 @@ h2 {
     height: 500px;
     background: #fff;
     padding: 10px;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 #area-lateral-direita img {
