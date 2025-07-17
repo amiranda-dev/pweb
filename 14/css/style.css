@@ -33,7 +33,7 @@
 
 .shadow1,
 .shadow2 {
-    width: 700px;
+    width: 500px;
     height: 300px;
     color: #fff;
     border-radius: 10px;
@@ -66,7 +66,7 @@
 }
 
 .linear {
-    width: 700px;
+    width: 500px;
     height: 300px;
     background: linear-gradient(
         to top right, #4ed2fa, #cd2ae2, #00da00, #ff0000
@@ -75,7 +75,7 @@
 }
 
 .radial {
-    width: 700px;
+    width: 500px;
     height: 300px;
     background: radial-gradient(#ff0000, #ffff00, #008000)
 }
