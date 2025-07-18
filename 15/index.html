@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atividade 15</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      background: red;
+      animation-name: minhaAnimacao;
+      animation-duration: 5s;
+      animation-delay: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    .box:hover {
+      border: 5px solid black;
+      transition: border 3s 2s;
+    }
+
+    @keyframes minhaAnimacao {
+      from {
+        transform: translateX(0px);
+      }
+
+      to {
+        transform: translateX(40px) rotate(90deg);
+        background: blue;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
