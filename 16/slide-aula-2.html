@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 16</title>
+
+    <style>
+        @media screen and (min-width: 601px) {
+            ul {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            li {
+                background-color: #6edd6e;
+                list-style-type: none;
+                margin-right: 10px;
+                padding: 10px;
+                color: #fff;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            }
+
+            li:hover {
+                background-color: #4cbf4c;
+                transform: scale(1.05);
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                width: 100%;
+                margin: 10px 0;
+                padding: 0;
+            }
+
+            li {
+                display: inline-block;
+                list-style-type: none;
+                background-color: #6edd6e;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                color: #fff;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            }
+
+            li:hover {
+                background-color: #4cbf4c;
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Menu 01</li>
+        <li>Menu 02</li>
+        <li>Menu 03</li>
+        <li>Menu 04</li>
+        <li>Menu 05</li>
+    </ul>
+</body>
+
+</html>
