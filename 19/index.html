@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 19 - Botões e Imagens Responsivas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-6">
+            <h1>Botões Padrões</h1>
+            <a href="" class="btn btn-default">Botão link</a>
+            <input type="submit" class="btn btn-default" value="Botão submit">
+            <button class="btn btn-default">Botão Button</button>
+        </div>
+
+        <div class="col-sm-6">
+            <h1>Tipos de Botões</h1>
+            <button class="btn btn-default brn-xs">Botão</button>
+            <button class="btn btn-primary btn-sm">Botão</button>
+            <button class="btn btn-success btn-md">Botão</button>
+            <button class="btn btn-danger btn-lg">Botão</button>
+            <button class="btn btn-warning">Botão</button>
+            <button class="btn btn-info">Botão</button>
+            <button class="btn btn-link">Botão</button>
+        </div>
+
+        <div class="col-sm-6">
+            <h1> Application Buttons </h1>
+            <div class="btn-container">
+                <button class="btn-default btn-custom btn-sm mb-2">
+                    <i class="fa-solid fa-edit"></i>
+                    Edit
+                </button>
+                <button class="btn-default btn-custom btn-sm mb-2">
+                    <i class="fa-solid fa-play"></i>
+                    Play
+                </button>
+                <button class="btn-default btn-custom btn-sm mb-2">
+                    <i class="fa-solid fa-repeat"></i>
+                    Repeat
+                </button>
+                <button class="btn-default btn-custom btn-sm mb-2">
+                    <i class="fa-solid fa-pause"></i>
+                    Pause
+                </button>
+                <button class="btn-default btn-custom btn-sm mb-2">
+                    <i class="fa-solid fa-save"></i>
+                    Save
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1> Imagem Responsiva</h1>
+                <img src="uvas.png" class="img-fluid">
+            </div>
+            <div class="col-sm-6">
+                <h1> Imagem Não Responsiva </h1>
+                <img src="uvas.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1> Formas em Imagem </h1>
+                <img src="uvas200.png" class="rounded-circle">
+                <img src="uvas200.png" class="rounded">
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h2>User Profile</h2>
+                <div class="profile-card border-top border-primary">
+                    <img src="./uvas.png" class="imagem">
+                    <h3>Leonel Messi</h3>
+                    <p class="text-muted">Jogador Profissional</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 text-left">
+                            <strong>Followers</strong>
+                        </div>
+                        <div class="col-md-6 text-right text-primary">
+                            <p>506 mi</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 text-left">
+                            <strong>Following</strong>
+                        </div>
+                        <div class="col-md-6 text-right text-primary">
+                            <p>348</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row ">
+                        <div class="col-md-6 text-left">
+                            <strong>Friends</strong>
+                        </div>
+                        <div class="col-md-6 text-right text-primary">
+                            <p>13,287</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <button class="btn btn-primary btn-lg d-block w-100">Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

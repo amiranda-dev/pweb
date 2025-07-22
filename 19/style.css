@@ -1,0 +1,45 @@
+body{
+    background-color: #d2d2d3;
+}
+.card{
+    background: #bec7e4;
+    border: 1px solid rgb(25, 0, 83);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.btn-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+}
+.btn-custom i {
+    color: grey;
+    
+}
+
+
+.profile-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.imagem {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #d2d2d3;
+    justify-content: center;
+}
