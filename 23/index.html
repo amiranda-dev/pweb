@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Manipulação de Arrays</title>
+    <style>
+        body{
+            padding: 25px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+			color: white;
+            padding: 10px;
+            border: 1px solid black;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+        }
+    </style>
+</head>
+
+	<body>
+  
+        <div id="container1"> Lista de Linguagens</div>
+            <br>
+            <button class="btn btn-danger" onclick="criaListaLinguagens()">Criar Array</button> <br><br>
+            <button class="btn btn-danger" onclick="posicaoLinguagens()">Posição no Array</button>
+        <hr>
+        <div id="container2">Lista de Frutas</div>
+        <br>
+            <button class="btn btn-danger" onclick="criaListaFrutas()">Criar Array</button> <br><br>
+            <button class="btn btn-danger" onclick="posicaoFrutas()">Posição no Array</button>
+        <hr>
+        <div id="container3">Lista Generica</div>
+        <br>
+            <button class="btn btn-danger" onclick="criaListaGenerica()">Criar Array</button> <br><br>
+            <button class="btn btn-danger" onclick="posicaoItens()">Posição no Array</button>
+        <hr>
+        <div id="container4">Lista de Notas</div>
+            <button class="btn btn-danger" onclick="consultarNotas()">Consultar</button>
+        <hr>
+        
+
+            <button class="btn btn-danger" id="listaBox">Listar Box</button>
+            <button class="btn btn-danger" id="verificaCor">Verificar Cor da Box</button>
+                
+            <div id="container5"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+
+   </body>
+</html>
